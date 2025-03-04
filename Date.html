@@ -5,23 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniversario 3</title>
     <link rel="stylesheet" href="design.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <nav class="FondoNav navbar-right"">
-        <table>
-            <tr>
-                <th class="Logo">❤️ Aniversario ❤️</th>
-                <th><a href="index.html" class="Naveg">Inicio</a></th>
-                <th><a href="Carta.html" class="Naveg">Carta</a></th>
-                <th><a href="Fotos.html" class="Naveg">Fotos</a></th>
-                <th><a href="Date.html" class="Naveg">Date</a></th>
-            </tr>
-        </table>
-    </nav><br><br><br><br><br>
+    <nav class="FondoNav">❤️ Aniversario ❤️</nav><br><br>
     <div class="Contenido">
         <div class="flex-table">
             <div class="flex-row">
@@ -29,13 +19,26 @@
                     <br><br><img src="Fotos/Invitacion 3.jpg" alt="Invitacion" style="width: 520px; height: 700px; border-radius: 20px;">
                 </div>
                 <div class="flex-column">
-                    <h1 class="TituloCarta">Date</h1>
-                    <button class="BotonDate">Sí viernes</button>
-                    <button class="BotonDate" style="margin-left: 200px; margin-right: 50px;">Sí sábado</button>
-                <br><br><br><br>
-                <button class="BotonDate2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfj2MU_epsftPkO5tbsVDoGz3lQeAMNayhgLApAM4IipntLuw/viewform?usp=header" class="Date">Tengo una mejor opción</a></button></div>
+                    <h1 class="TituloCarta">Date</h1><br><br>
+                    <button class="BotonDate" id="btn-viernes">Sí viernes</button>
+                    <button class="BotonDate" id="btn-sabado" style="margin-left: 200px; margin-right: 50px;">Sí sábado</button>
+                <br><br>
+                <button class="BotonDate2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfj2MU_epsftPkO5tbsVDoGz3lQeAMNayhgLApAM4IipntLuw/viewform?usp=header" class="Date" target="_blank">Tengo una mejor opción</a></button>
+                <br><br><br><br><br><br>
+                <p class="Texto3">Links:</p>
+                <button class="BotonDate3"><a href="https://www.instagram.com/panypedazo.co?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">PANYPEDAZO.CO</a></button>
+                <button class="BotonDate3"><a href="https://maps.app.goo.gl/odh9sscNsVDsGNgR9?g_st=ic">LINK GOOGLE MAPS</a></button>
+                </div>
+            </div><br><br>
+        </div>
+
+        <div class="flex-table">
+            <div class="flex-row">
+                <div class="flex-column"><button class="BotonAtras"><a href="Fotos.html" class="Atras">Atras</a></button></div>
+                <div class="flex-column"><button class="BotonSig"><a href="index.html" class="Sig">Inicio</a></button></div>
             </div><br><br>
         </div>
     </div><br><br>
     <div class="CopyR">&copy; Carolina García 2025</div>
+    <script src="Boton.js"></script>
 </body>

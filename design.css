@@ -4,15 +4,19 @@
 
 .FondoNav {
     background-color: #365486;
-    height: 60px;
+    height: 80px;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
+    font-family: 'Combo', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
 }
 
-.Naveg {
+/* .Naveg {
     color: white;
     font-family: 'Fredoka', sans-serif;
     font-size: 20px;
@@ -28,14 +32,8 @@
 
 .navbar-right th:first-child {
     text-align: left;
-}
+} */
 
-.Logo {
-    font-family: 'Combo', sans-serif;
-    color: white;
-    font-size: 35px;
-    padding-left: 20px;
-}
 
 /* Página principal (index.html) */
 
@@ -83,6 +81,19 @@
     font-size: 12px;
 }
 
+.BotonSig {
+    border: transparent;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #C7D9DD;
+    font-family: 'Combo', sans-serif;
+    font-size: 30px;
+    display: block;
+    margin-left: auto; 
+    margin-right: 20px;
+    text-align: right;
+}
+
 /* Página 2 (Carta.html) */
 
 .TituloCarta {
@@ -102,6 +113,19 @@
     margin-right: 50px;
 }
 
+.BotonAtras {
+    border: transparent;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #C7D9DD;
+    font-family: 'Combo', sans-serif;
+    font-size: 30px;
+    display: block;
+    margin-left: 20px; 
+    margin-right: auto;
+}
+
+
 /* Página 3 (Fotos.html) */
 
 .Texto3 {
@@ -111,33 +135,45 @@
     text-align: center;
 }
 
-/* Página 4 (Cate.html) */
+/* Página 4 (Date.html) */
 
 .BotonDate {
     margin-left: 10px;
-    border: 2px solid gray;
+    border: transparent;
     border-radius: 10px;
     height: 80px;
-    background-color: #AED2FF;
-    font-family: 'Francois One', sans-serif;
-    font-size: 30px;
+    background-color: #C7D9DD;
+    font-family: 'Combo', sans-serif;
+    font-size: 50px;
 }
 
 .BotonDate2 {
-    border: 2px solid gray;
+    border: transparent;
     border-radius: 10px;
     height: 80px;
-    background-color: #AED2FF;
-    font-family: 'Francois One', sans-serif;
-    font-size: 30px;
+    background-color: #C7D9DD;
+    font-family: 'Combo', sans-serif;
+    font-size: 50px;
     margin-top: 100px;
 }
 
-.Date {
+.BotonDate:hover, .Date:hover, .BotonSig:hover, .BotonAtras:hover {
+    background-color: #2DAA9E;
+    color: white;
+    box-shadow: 0 0 5px #2DAA9E, 0 0 25px #2DAA9E, 0 0 50px #2DAA9E, 0 0 100px #2DAA9E, 0 0 300px #2DAA9E;
+}
+
+.Date, .Atras, .Sig {
     text-decoration: none;
     color: black;
 }
 
+.BotonDate3 {
+    border: transparent;
+    border-radius: 50px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
 
 /* Responsiveness */
 @media (max-width: 768px) {
