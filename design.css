@@ -156,7 +156,7 @@
     margin-top: 100px;
 }
 
-.BotonDate:hover, .Date:hover, .BotonSig:hover, .BotonAtras:hover {
+.BotonDate:hover, .BotonSig:hover, .BotonAtras:hover, .Date:hover, .Atras:hover, .Sig:hover {
     background-color: #2DAA9E;
     color: white;
     box-shadow: 0 0 5px #2DAA9E, 0 0 25px #2DAA9E, 0 0 50px #2DAA9E, 0 0 100px #2DAA9E, 0 0 300px #2DAA9E;
